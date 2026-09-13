@@ -1,6 +1,9 @@
 name: V6.1 ETH Paper Agent
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *"
