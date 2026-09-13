@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import time
 
-
+JOURNAL_FILE = "v61_paper_journal.csv"
 # ============================================================
 # FROZEN V6.1 SETTINGS
 # ============================================================
