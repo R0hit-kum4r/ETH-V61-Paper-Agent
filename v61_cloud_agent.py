@@ -3,7 +3,7 @@
 # ETH/USD — 15 MINUTES
 # NO REAL ORDERS
 # ============================================================
-
+import os
 import requests
 import pandas as pd
 import numpy as np
