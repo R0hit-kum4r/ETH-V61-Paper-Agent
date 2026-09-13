@@ -1,0 +1,47 @@
+name: V6.1 ETH Paper Agent
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: v61-paper-agent
+  cancel-in-progress: false
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run V6.1 paper agent
+        run: python v61_cloud_agent.py
+
+      - name: Save paper journal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add v61_paper_journal.csv
+          if git diff --cached --quiet; then
+            echo "No journal changes to commit."
+          else
+            git commit -m "Update V6.1 paper journal"
+            git push
+          fi
