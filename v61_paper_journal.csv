@@ -1,1 +1,2 @@
 trade_id,signal_time,entry_time,exit_time,side,entry,stop_loss,take_profit,risk_pct,reason,status,outcome,R
+1,2026-09-14 22:00:00+00:00,2026-09-14 22:00:00+00:00,,BUY,2554.29,2536.83,2606.67,0.6835559000739946,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 1.8h,OPEN,OPEN,
