@@ -54,4 +54,4 @@ trade_id,signal_time,entry_time,exit_time,side,entry,stop_loss,take_profit,risk_
 53,2026-11-03 12:15:00+00:00,2026-11-03 12:15:00+00:00,2026-11-03 13:15:00+00:00,BUY,2279.06,2274.52,2292.69,0.1992049353680887,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 22.5h,CLOSED,LOSS,-1.0
 54,2026-11-03 13:15:00+00:00,2026-11-03 13:15:00+00:00,2026-11-03 14:00:00+00:00,BUY,2288.43,2274.45,2330.36,0.6108991754172083,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 23.5h,CLOSED,LOSS,-1.0
 55,2026-11-03 14:15:00+00:00,2026-11-03 14:15:00+00:00,2026-11-03 18:30:00+00:00,BUY,2280.47,2273.67,2300.88,0.2981841462505417,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 0.8h,CLOSED,WIN,3.0
-56,2026-11-03 20:15:00+00:00,2026-11-03 20:15:00+00:00,,BUY,2283.57,2273.99,2312.3,0.4195185608499139,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 6.8h,OPEN,OPEN,
+56,2026-11-03 20:15:00+00:00,2026-11-03 20:15:00+00:00,2026-11-03 23:45:00+00:00,BUY,2283.57,2273.99,2312.3,0.4195185608499139,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 6.8h,CLOSED,LOSS,-1.0
