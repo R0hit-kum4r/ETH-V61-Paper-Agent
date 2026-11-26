@@ -93,4 +93,5 @@ trade_id,signal_time,entry_time,exit_time,side,entry,stop_loss,take_profit,risk_
 92,2026-11-25 17:15:00+00:00,2026-11-25 17:15:00+00:00,2026-11-25 17:30:00+00:00,SELL,1656.73,1673.93,1605.14,1.0381896869133802,BEARISH trend + FVG/OB supply retest + bearish closed candle + zone age 15.5h,CLOSED,LOSS,-1.0
 93,2026-11-26 01:00:00+00:00,2026-11-26 01:00:00+00:00,2026-11-26 06:00:00+00:00,BUY,1702.23,1685.87,1751.32,0.9610922143306208,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 0.8h,CLOSED,LOSS,-1.0
 94,2026-11-26 06:15:00+00:00,2026-11-26 06:15:00+00:00,2026-11-26 06:30:00+00:00,BUY,1686.6,1686.14,1687.98,0.0272738052887352,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 6.0h,CLOSED,LOSS,-1.0
-95,2026-11-26 07:15:00+00:00,2026-11-26 07:15:00+00:00,,BUY,1688.97,1688.57,1690.18,0.02368307311557286,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 7.0h,OPEN,OPEN,
+95,2026-11-26 07:15:00+00:00,2026-11-26 07:15:00+00:00,2026-11-26 07:30:00+00:00,BUY,1688.97,1688.57,1690.18,0.0236830731155728,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 7.0h,CLOSED,LOSS,-1.0
+96,2026-11-26 07:30:00+00:00,2026-11-26 07:30:00+00:00,,BUY,1691.5,1688.56,1700.31,0.1738102276086346,BULLISH trend + FVG/OB demand retest + bullish closed candle + zone age 7.2h,OPEN,OPEN,
